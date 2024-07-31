@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Changa One', sans-serif;
+}
+
+#gameContainer {
+  background-color: #000;
+  padding: 10px;
+  text-align: center; 
+}
+
+canvas {
+  display: block;
+  margin: 0 auto 10px auto;
+  border: 1px solid #000;
+}
+
+#score {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: white; 
+}
+
+#restart {
+  font-size: 16px;
+  color: #888;
+}
